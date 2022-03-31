@@ -37,7 +37,7 @@ export default function Form(props) {
         thanksBlock.classList = "thanks-for-mail mail-sended";
         contactsForm.classList = "disable";
 
-        // ym(87992635, "reachGoal", "lead");
+        ym(87992635, "reachGoal", "lead");
       } else {
         badPhone.classList = "bad-try-phone active";
       }
